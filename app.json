@@ -1,0 +1,12 @@
+{
+  "name": "k-c-contact-list",
+  "displayName": "k-c-contact-list",
+  "expo": {
+    "name": "k-c-contact-list",
+    "slug": "k-c-contact-list",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
