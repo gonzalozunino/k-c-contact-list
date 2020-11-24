@@ -8,7 +8,7 @@ type Props = {
     item: IContact
 };
 
-const ListRow: FunctionComponent<Props> = ({ item }) => {
+const ContactListItem: FunctionComponent<Props> = ({ item }) => {
     const [fallbackAvatar, setFallbackAvatar] = useState(false);
 
     return (
@@ -85,4 +85,4 @@ const ListRow: FunctionComponent<Props> = ({ item }) => {
     );
 };
 
-export default ListRow;
+export default ContactListItem;
